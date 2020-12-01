@@ -1,7 +1,7 @@
 {
   "name": "deploy-github",
   "version": "0.1.0",
-  "homepage": "https://loihp.github.io/new-repo/",
+  "homepage": "https://loihp.github.io/shopping/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

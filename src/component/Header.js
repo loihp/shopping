@@ -27,7 +27,7 @@ export class Header extends Component {
         </div>
         <div className="logo">
           <h1>
-            <Link to="/">Loi Huynh Nike</Link>
+            <Link to="/">Loi Huynh</Link>
           </h1>
         </div>
         <nav>
