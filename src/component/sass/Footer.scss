@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  .about {
+    max-width: 500px;
+    margin: 10px;
+    div {
+      padding: 10px;
+      line-height: 2.5vh;
+    }
+  }
+  .categories {
+    margin: 10px;
+    div {
+      padding: 10px;
+    }
+
+    li {
+      list-style: none;
+      padding: 5px;
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+          text-decoration: underline;
+          color: blue;
+        }
+      }
+    }
+  }
+  .languages {
+    margin: 10px;
+
+    li {
+      list-style: none;
+      padding: 5px;
+    }
+  }
+
+  h5 {
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 1.3rem;
+    font-weight: 700px;
+  }
+}
+
+.bottom {
+  margin: 20px 0;
+}
