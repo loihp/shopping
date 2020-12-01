@@ -16,6 +16,11 @@ export class Section extends Component {
         <Route path="/cart" component={Cart} />
         <Route path="/payment" component={Payment} />
         <Route path="/" component={Home} exact />
+        <Route
+          path="https://loihp.github.io/new-repo/"
+          component={Home}
+          exact
+        />
       </section>
     );
   }
